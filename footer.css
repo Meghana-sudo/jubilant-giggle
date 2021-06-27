@@ -1,0 +1,134 @@
+footer{
+    
+    padding:24px 0;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    
+}
+
+.footer-container{
+    padding:0 40px;
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-container ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+.footer-container ul li {
+    color:rgba(0,0,0,.56);
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+    cursor: pointer;
+}
+
+.footer-container ul li:hover{
+    color:rgba(0,0,0,.87);
+}
+
+.links-container{
+    width:190px;
+    margin-right: 50px;
+}
+
+footer h3{
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.footer-last{
+    padding:0 40px;
+    display: flex;
+    flex-direction:column;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: inherit;
+}
+
+.rule{
+    display: flex;
+    border: 0;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 3px;
+    content: "";
+    display: block;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: rgba(0,0,0,.1);
+    box-sizing: inherit;
+}
+
+.footer-last .last .last-ul{
+    margin-left: -5px;
+    display: flex;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: rgba(0,0,0,.87);
+    
+}
+
+.last-list{
+    display: flex;
+    list-style: none;
+    margin-right: 0;
+    padding-right: 15px;
+   
+}
+
+.last-ul i{
+    padding-right: 9px;
+    font-size: 30px;
+    cursor:pointer;
+    
+}
+
+.last2-ul{
+    list-style-type: none;
+    margin-left: -5px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    font-weight:400;
+    box-sizing: inherit;
+    color: rgba(0,0,0,.87);
+    padding-right: 1.6rem;
+    box-sizing: inherit;
+}
+
+.last2-ul .terms .terms{
+    margin-block-end:4px;
+    margin-block-start:16px;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.last2-ul .terms1{
+    background-color: transparent;
+    padding-right: 30px;
+    
+    
+}
+
+.last2-ul .terms .s{
+    padding-left: .8rem;
+    padding-right: .8rem;
+}
+
+
